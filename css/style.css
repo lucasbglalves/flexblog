@@ -28,8 +28,8 @@ img {
 /*Superinfo*/
 
 .superinfo-bg {
-	background: #122ab2;
-	color: white;
+	background: #FFD700;
+	color: #8B0000;
 }
 
 .superinfo {
@@ -46,13 +46,13 @@ img {
 }
 
 .superinfo a {
-	color: white;
+	color: #8B0000;
 }
 
 /*Menu*/
 
 .menu-bg {
-	background: #2c70ff;
+	background: #8B0000;
 }
 
 .menu {
@@ -66,7 +66,7 @@ img {
 }
 
 .menu a {
-	color: white;
+	color: #FFD700;
 }
 
 .menu-logo a {
@@ -87,7 +87,7 @@ img {
 }
 
 .menu-nav a:hover{
-	color: #122ab2;
+	color: #F5F5F5;
 }
 
 /*Introdução*/
@@ -103,8 +103,8 @@ img {
 /*Sobre*/
 
 .sobre {
-	border-top: 2px solid #2c70ff;
-	border-bottom: 2px solid #2c70ff;
+	border-top: 2px solid #333333;
+	border-bottom: 2px solid #333333;
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 60px 0;
@@ -134,37 +134,37 @@ img {
 	margin: 0 10px;
 }
 
-/*Produtos*/
+/*Pratos*/
 
-.produtos {
+.pratos {
 	max-width: 960px;
 	margin: 60px auto;
 }
 
-.produtos h1 {
+.pratos h1 {
 	font-size: 3em;
 	margin: 0 10px 60px 10px
 }
 
-.produtos-container {
+.pratos-container {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-end;
 }
 
-.produtos-item {
+.pratos-item {
 	flex: 1 1 175px;
 	margin: 10px;
 }
 
-.produtos-item h2 {
+.pratos-item h2 {
 	font-size: 3em;
 	color: #a4a4a4;
 	background: #f7f7f7;
 	padding: 60px 20px;
 }
 
-.purple {
+.dim-sum {
 	border-top: 8px solid #ae81ff;
 }
 
@@ -384,7 +384,7 @@ img {
 
 .footer {
 	display: flex;
-	background: #2c70ff;
+	background: #8B0000;
 	height: 200px;
 	align-items: center;
 }
@@ -393,5 +393,5 @@ img {
 	flex: 1;
 	text-align: center;
 	font-size: 2.25em;
-	color: #122ab2;
+	color: #FFD700;
 }
